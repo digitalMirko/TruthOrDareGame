@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 button.setEnabled(true);
-                button.getBackground().setColorFilter(0xFF74B9FF, PorterDuff.Mode.MULTIPLY);
+                button.getBackground().setColorFilter(0xFF66cdaa, PorterDuff.Mode.MULTIPLY);
             }
 
             @Override
