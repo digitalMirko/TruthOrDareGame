@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void spinBottle(View view){
 
-        int newDirection = random.nextInt(4200);
+        int newDirection = random.nextInt(3840) + 360;
         // pivot access x, y
         float pivotX = imageView.getWidth()/2;
         float pivotY = imageView.getHeight()/2;
